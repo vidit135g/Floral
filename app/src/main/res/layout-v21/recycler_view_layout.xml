@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:tag="@string/theme_bg_color">
+
+    <com.theabsolutecompany.floral.ui.widget.FastScrollerRecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="true"
+        android:paddingTop="?android:attr/actionBarSize" />
+
+    <com.pluscubed.recyclerfastscroll.RecyclerFastScroller
+        android:id="@+id/fastScroller"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:rfs_touchTargetWidth="0.5dp"
+        android:layout_gravity="end" />
+
+    <android.support.v7.widget.Toolbar android:id="@+id/toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Floral"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:textColor="@color/gred"
+            android:layout_gravity="center"
+            android:visibility="visible"
+            android:fontFamily="@font/roboto_mono_medium"
+            android:id="@+id/toolbar_title" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Gallery"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:textColor="#767676"
+            android:layout_gravity="center"
+            android:visibility="visible"
+            android:fontFamily="@font/roboto_mono_light"
+            android:id="@+id/toolbar_gallery" />
+
+
+    </android.support.v7.widget.Toolbar>
+
+</FrameLayout>

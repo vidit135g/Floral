@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--dark theme colors-->
+    <color name="colorPrimary">#212121</color>
+    <color name="dark_bg">#212121</color>
+    <!--black theme colors-->
+    <color name="black_bg">#000000</color>
+    <!--accent color-->
+    <color name="colorAccent">@color/gred</color>
+    <color name="colorAccentLight">@color/white</color>
+    <color name="colorAccent_text">#8A212121</color>
+    <color name="list_bg">#3B3B3B</color>
+    <!--light theme colors-->
+    <color name="colorPrimary_light">#FAFAFA</color>
+    <color name="colorPrimaryDark_light">#fafafa</color>
+    <color name="light_bg">#FAFAFA</color>
+    <!--light accent color-->
+    <color name="colorAccent_light">@color/colorAccent</color>
+    <color name="colorAccentLight_light">@color/colorAccentLight</color>
+    <color name="colorAccent_text_light">#fff</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="white_translucent1">#8AFFFFFF</color>
+    <color name="grey_500">#9E9E9E</color>
+    <color name="white_translucent2">#64FFFFFF</color>
+    <color name="grey_800">#424242</color>
+    <color name="grey_900_translucent1">#64212121</color>
+    <color name="ripple_color">#33000000</color>
+    <color name="black_translucent1">#33000000</color>
+    <color name="grey_900_translucent">#8A212121</color>
+    <color name="grey_900">#212121</color>
+    <color name="black_translucent2">#64000000</color>
+    <color name="black_translucent3">#96000000</color>
+    <color name="black">#000000</color>
+    <color name="colorPrimaryDark">@android:color/transparent</color>
+    <color name="inactiveAddButtonColor">#B3B3B3</color>
+    <color name="infoPageBackgroundColor">#EBEBEB</color>
+    <color name="actionBarArrowColor">@color/colorAccent</color>
+    <color name="blue">#348af7</color>
+    <color name="colorMain">#4285F4</color>
+    <color name="temperature_background">@color/colorPrimary</color>
+    <color name="temperature_text">@android:color/white</color>
+    <color name="gblack">#000</color>
+    <color name="gred">#DB4437</color>
+    <color name="ggreen">#0F9D58</color>
+    <color name="gblue">#4285F4</color>
+    <color name="gyellow"> #F4B400</color>
+    <color name="gpink">#d81b60</color>
+    <color name="ggray">#424242</color>
+    <color name="gdblue">#1565c0</color>
+    <color name="gpurple">#4527a0</color>
+    <color name="glyellow">#ffeb3b</color>
+    <color name="glpurple">#9575cd</color>
+    <color name="gorange">#e64a19</color>
+    <color name="glpink">#f48fb1 </color>
+</resources>

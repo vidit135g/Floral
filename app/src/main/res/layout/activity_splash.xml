@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/mainl"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.theabsolutecompany.floral.ui.SplashActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hi there"
+        android:textSize="24sp"
+        android:id="@+id/hello"
+        android:layout_marginTop="40dp"
+        android:clickable="true"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"/>
+
+
+    <ImageView
+        android:id="@+id/pixelimage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:src="@drawable/floral" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Floral"
+        android:textSize="22sp"
+        android:id="@+id/intro"
+        android:layout_alignParentBottom="true"
+        android:typeface="monospace"
+        android:layout_above="@id/pixelbutton"
+        android:clickable="true"
+        android:layout_marginBottom="90dp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"/>
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:theme="@style/AppTheme.Button"
+        android:text="Get Started"
+        android:textSize="14sp"
+        android:paddingRight="20dp"
+        android:visibility="visible"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/pixelbutton"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_style"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+        <fr.castorflex.android.circularprogressbar.CircularProgressBar
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:indeterminate="true"
+            app:cpb_color="@color/gblue"
+            android:visibility="gone"
+            app:cpb_colors="@array/progress_colors"
+            app:cpb_rotation_speed="1.0"
+            android:id="@+id/loading_spinner"
+            app:cpb_sweep_speed="1.0"
+            app:cpb_stroke_width="2dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="8dp"
+            android:layout_gravity="center"
+            app:cpb_min_sweep_angle="10"
+            app:cpb_max_sweep_angle="300"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loading"
+            android:id="@+id/progresstext"
+            android:textSize="18sp"
+            android:visibility="gone"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+</RelativeLayout>

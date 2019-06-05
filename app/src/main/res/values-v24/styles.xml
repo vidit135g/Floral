@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!--buttons color-->
+        <item name="colorAccent">@color/black</item>
+        <item name="dialogCornerRadius">5dp</item>
+        <item name="android:fontFamily">@font/roboto_mono_medium</item>
+        <item name="android:textSize">16sp</item>
+        <!--title and message color-->
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <!--dialog background-->
+        <item name="android:windowBackground">@drawable/background_dialog</item>
+    </style>
+
+    <style name="CustomFragmentDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!--buttons color-->
+        <item name="colorAccent">@color/black</item>
+        <item name="dialogCornerRadius">5dp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:fontFamily">@font/roboto_mono_medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/gred</item>
+        <!--title and message color-->
+        <item name="android:textColorPrimary">@color/gred</item>
+        <!--dialog background-->
+        <item name="android:windowBackground">@drawable/background_dialog</item>
+    </style>
+
+</resources>

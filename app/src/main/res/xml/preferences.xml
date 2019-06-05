@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--suppress AndroidElementNotAllowed -->
+    <Preference
+        android:key="@string/pref_key_excluded_paths"
+        android:title="@string/excluded_paths" />
+
+    <!--suppress AndroidElementNotAllowed -->
+    <Preference
+        android:key="@string/pref_key_virtual_directories"
+        android:title="@string/virtual_albums" />
+
+    <PreferenceCategory android:title="@string/appearance">
+        <ListPreference
+            android:defaultValue="@string/LIGHT_THEME_VALUE"
+            android:entries="@array/theme_names"
+            android:entryValues="@array/theme_values"
+            android:key="@string/pref_key_theme"
+            android:title="@string/theme" />
+
+        <!--suppress AndroidElementNotAllowed -->
+        <com.theabsolutecompany.floral.preferences.StylePreference
+            style="@style/CameraRoll.Theme.DialogPreference"
+            android:defaultValue="2"
+            android:key="@string/pref_key_style"
+            android:title="@string/style" />
+
+        <!--suppress AndroidElementNotAllowed -->
+        <com.theabsolutecompany.floral.preferences.ColumnCountPreference
+            style="@style/CameraRoll.Theme.DialogPreference"
+            android:defaultValue="4"
+            android:key="@string/pref_key_column_count"
+            android:title="@string/column_count" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/pref_key_animations"
+            android:summary="@string/show_animations_summary"
+            android:title="@string/show_animations" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/pref_key_camera_shortcut"
+            android:title="@string/camera_shortcut" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/pref_key_max_brightness"
+            android:title="@string/maximum_brightness"
+            android:summary="@string/maximum_brightness_summary" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/other">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/pref_key_show_videos"
+            android:summary="@string/show_videos_summary"
+            android:title="@string/show_videos" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/pref_key_media_retriever"
+            android:summary="@string/media_retriever_summary"
+            android:title="@string/media_retriever" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/pref_key_8_bit_color"
+            android:summary="@string/use_8_bit_color_summary"
+            android:title="@string/use_8_bit_color" />
+    </PreferenceCategory>
+</PreferenceScreen>

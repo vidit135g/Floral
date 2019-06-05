@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.FloatingActionButton xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fab"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end|bottom"
+    android:layout_margin="@dimen/fab_margin"
+    app:backgroundTint="@color/white"
+    app:elevation="8dp"
+    app:maxImageSize="32dp"
+    app:rippleColor="@color/black"
+    android:clickable="true"
+    app:layout_behavior="com.theabsolutecompany.floral.ui.widget.FabSnackbarBehaviour" />

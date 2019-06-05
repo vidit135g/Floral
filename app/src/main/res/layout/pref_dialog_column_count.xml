@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <ImageButton
+            android:id="@+id/minus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="16dp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:padding="8dp"
+            android:tint="@color/gred"
+            app:srcCompat="@drawable/ic_remove_circle_white_18px"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/column_count"
+            android:layout_width="wrap_content"
+            android:textColor="@color/gred"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="16dp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:padding="8dp"
+            android:tint="@color/gred"
+            app:srcCompat="@drawable/ic_add_circle_white_18px"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+</FrameLayout>

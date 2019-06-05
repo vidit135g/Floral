@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+    <item
+        android:id="@+id/bottommenu"
+        android:icon="@drawable/camerablack"
+        android:title="menu"
+        android:visible="true"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction" />
+
+    <!--<item-->
+        <!--android:id="@+id/camera_shortcut"-->
+        <!--android:icon="@drawable/ic_camera_lens_avd"-->
+        <!--android:title="@string/camera_shortcut"-->
+        <!--android:visible="false"-->
+        <!--app:showAsAction="always"-->
+        <!--tools:ignore="AlwaysShowAction" />-->
+
+    <!--<item-->
+        <!--android:id="@+id/refresh"-->
+        <!--android:icon="@drawable/ic_refresh_white"-->
+        <!--android:title="@string/refresh"-->
+        <!--app:showAsAction="never" />-->
+
+    <!--<item-->
+        <!--android:id="@+id/sort_by"-->
+        <!--android:icon="@drawable/ic_sort_white"-->
+        <!--android:title="@string/sort_by"-->
+        <!--app:showAsAction="never">-->
+
+        <!--<menu>-->
+            <!--<group-->
+                <!--android:id="@+id/sort_by_options"-->
+                <!--android:checkableBehavior="single">-->
+
+                <!--<item-->
+                    <!--android:id="@+id/sort_by_name"-->
+                    <!--android:title="@string/by_name" />-->
+
+                <!--<item-->
+                    <!--android:id="@+id/sort_by_size"-->
+                    <!--android:title="@string/by_size" />-->
+
+                <!--<item-->
+                    <!--android:id="@+id/sort_by_most_recent"-->
+                    <!--android:title="@string/by_date" />-->
+            <!--</group>-->
+        <!--</menu>-->
+    <!--</item>-->
+
+    <!--<item-->
+        <!--android:id="@+id/hiddenFolders"-->
+        <!--android:checkable="true"-->
+        <!--android:icon="@drawable/ic_visibility_off_white"-->
+        <!--android:title="@string/hidden_folders"-->
+        <!--app:showAsAction="never" />-->
+
+    <!--<item-->
+        <!--android:id="@+id/file_explorer"-->
+        <!--android:icon="@drawable/ic_folder_white"-->
+        <!--android:title="@string/file_explorer"-->
+        <!--app:showAsAction="never" />-->
+
+    <!--<item-->
+        <!--android:id="@+id/settings"-->
+        <!--android:icon="@drawable/ic_settings_white"-->
+        <!--android:title="@string/settings"-->
+        <!--app:showAsAction="never" />-->
+
+    <!--<item-->
+        <!--android:id="@+id/about"-->
+        <!--android:icon="@drawable/ic_info_white"-->
+        <!--android:title="@string/about"-->
+        <!--app:showAsAction="never" />-->
+</menu>

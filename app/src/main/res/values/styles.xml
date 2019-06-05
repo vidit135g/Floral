@@ -1,0 +1,333 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--Tag for a view, which need a bg color set, according to the current theme-->
+    <string name="theme_bg_color" translatable="false">THEME_BG_COLOR</string>
+    <string name="theme_text_color_primary" translatable="false">THEME_TEXT_COLOR_PRIMARY</string>
+    <string name="theme_text_color_secondary" translatable="false">THEME_TEXT_COLOR_SECONDARY</string>
+
+
+    <!--Base Theme-->
+    <style name="CameraRoll.Theme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">@bool/show_nav_bar</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+    </style>
+
+    <style name="CameraRoll.Theme.Light" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary_light</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/gred</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:windowTranslucentNavigation">@bool/show_nav_bar</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+    </style>
+
+    <!--translucent Activity Base Theme-->
+    <style name="CameraRoll.Theme.Translucent" parent="CameraRoll.Theme">
+        <item name="android:windowBackground">@color/black_translucent2</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="CameraRoll.Theme.Light.Translucent" parent="CameraRoll.Theme.Light">
+        <item name="android:windowBackground">@color/black_translucent2</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <!--MainActivity Theme-->
+    <style name="CameraRoll.Theme.Main" parent="CameraRoll.Theme">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="CameraRoll.Theme.Light.Main" parent="CameraRoll.Theme.Light">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <!--AlbumActivity Theme-->
+    <style name="CameraRoll.Theme.Translucent.Album" parent="CameraRoll.Theme.Translucent" />
+
+    <style name="CameraRoll.Theme.Light.Translucent.Album" parent="CameraRoll.Theme.Light.Translucent" />
+
+    <!--PhotoView Theme-->
+    <style name="CameraRoll.Theme.PhotoView" parent="CameraRoll.Theme">
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColorSecondary">@color/white_translucent1</item>
+    </style>
+
+    <style name="CameraRoll.Theme.Light.PhotoView" parent="CameraRoll.Theme.Light">
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:textColorPrimary">@color/white</item>
+
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColorSecondary">@color/white_translucent1</item>
+    </style>
+
+    <!--VideoPlayer Theme-->
+    <style name="CameraRoll.Theme.VideoPlayer" parent="CameraRoll.Theme">
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColorSecondary">@color/white_translucent1</item>
+    </style>
+
+    <style name="CameraRoll.Theme.Light.VideoPlayer" parent="CameraRoll.Theme.Light">
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white_translucent1</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <!--FileExplorer Theme-->
+    <style name="CameraRoll.Theme.Translucent.FileExplorer" parent="CameraRoll.Theme.Translucent" />
+
+    <style name="CameraRoll.Theme.Light.Translucent.FileExplorer" parent="CameraRoll.Theme.Light.Translucent" />
+
+    <!--FileOperationDialogActivity Theme-->
+    <style name="CameraRoll.Theme.Translucent.FileOperationDialog" parent="CameraRoll.Theme.Translucent" />
+
+    <style name="CameraRoll.Theme.Light.Translucent.FileOperationDialog" parent="CameraRoll.Theme.Light.Translucent" />
+
+    <!--ExifEditor Theme-->
+    <style name="CameraRoll.Theme.ExifEditor" parent="CameraRoll.Theme">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="CameraRoll.Theme.Light.ExifEditor" parent="CameraRoll.Theme.Light">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <!--SettingsActivity Theme-->
+    <style name="CameraRoll.Theme.Settings" parent="CameraRoll.Theme">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:typeface">monospace</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
+
+    </style>
+
+    <style name="CameraRoll.Theme.Light.Settings" parent="CameraRoll.Theme.Light">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:typeface">monospace</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
+    </style>
+
+    <!--AboutActivity Theme-->
+    <style name="CameraRoll.Theme.Translucent.About" parent="CameraRoll.Theme.Translucent" />
+
+    <style name="CameraRoll.Theme.Translucent.Light.About" parent="CameraRoll.Theme.Light.Translucent" />
+
+    <!--EditImage Theme-->
+    <style name="CameraRoll.Theme.EditImage" parent="CameraRoll.Theme">
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <!--SetWallpaper Theme-->
+    <style name="CameraRoll.Theme.SetWallpaper" parent="CameraRoll.Theme">
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <!--ExcludePaths Theme-->
+    <style name="CameraRoll.Theme.ExcludePaths" parent="CameraRoll.Theme">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="CameraRoll.Theme.Light.ExcludePaths" parent="CameraRoll.Theme.Light">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <!--VirtualDirectories Theme-->
+    <style name="CameraRoll.Theme.VirtualDirectories" parent="CameraRoll.Theme">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="CameraRoll.Theme.Light.VirtualDirectories" parent="CameraRoll.Theme.Light">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <!--Dialog Style-->
+    <style name="CameraRoll.Theme.Dialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="CameraRoll.Theme.Light.Dialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/gred</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <!-- Style for a DialogPreference Entry -->
+    <style name="CameraRoll.Theme.DialogPreference">
+        <item name="android:typeface">monospace</item>
+        <item name="positiveButtonText">@android:string/ok</item>
+        <item name="negativeButtonText">@android:string/cancel</item>
+    </style>
+
+    <!--View Styles-->
+
+
+    <style name="AlbumTitle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="AlbumSubTitle" >
+        <!--<item name="android:fontFamily">@font/roboto_mono_light</item>-->
+        <item name="android:textSize">12sp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">@color/grey_300</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="Icon">
+        <item name="android:shadowColor">@color/black_translucent2</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:shadowRadius">2</item>
+        <!--<item name="android:alpha">0.7</item>-->
+    </style>
+
+    <style name="InfoColorItem">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:layout_marginEnd">12dp</item>
+        <item name="android:fontFamily">@font/roboto_mono_medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/grey_300</item>
+    </style>
+
+    <style name="TagItem">
+        <item name="android:typeface">monospace</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:fontFamily">@font/roboto_mono_medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/grey_300</item>
+    </style>
+
+
+
+    <style name="BottomSheet" parent="@style/Widget.Design.BottomSheet.Modal">
+
+        <item name="android:typeface">monospace</item>
+        <item name="android:background">@drawable/cornercircle</item>
+    </style>
+
+    <style name="BaseBottomSheetDialog" parent="@style/Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:typeface">monospace</item>
+        <item name="bottomSheetStyle">@style/BottomSheet</item>
+    </style>
+
+    <style name="BottomSheetDialogTheme" parent="BaseBottomSheetDialog" />
+
+    <style name="ZhihuOverlay" parent="ThemeOverlay.AppCompat">
+        <item name="colorButtonNormal">@color/zhihu_primary</item>
+    </style>
+
+    <style name="DraculaOverlay" parent="ThemeOverlay.AppCompat">
+        <item name="colorButtonNormal">@color/dracula_primary</item>
+    </style>
+
+    <style name="Matisse.Zhihu" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/ggreen</item>
+        <item name="colorPrimaryDark">@color/ggreen</item>
+        <item name="toolbar">@style/Toolbar.Zhihu</item>
+        <item name="album.dropdown.title.color">@color/zhihu_album_dropdown_title_text</item>
+        <item name="album.dropdown.count.color">@color/zhihu_album_dropdown_count_text</item>
+        <item name="album.element.color">@android:color/white</item>
+        <item name="album.thumbnail.placeholder">@color/zhihu_album_dropdown_thumbnail_placeholder</item>
+        <item name="album.emptyView">@drawable/ic_empty_zhihu</item>
+        <item name="album.emptyView.textColor">@color/zhihu_album_empty_view</item>
+        <item name="item.placeholder">@color/zhihu_item_placeholder</item>
+        <item name="item.checkCircle.backgroundColor">@color/ggreen</item>
+        <item name="item.checkCircle.borderColor">@color/zhihu_item_checkCircle_borderColor</item>
+        <item name="page.bg">@color/zhihu_page_bg</item>
+        <item name="bottomToolbar.bg">#fafafa</item>
+        <item name="bottomToolbar.preview.textColor">@color/zhihu_bottom_toolbar_preview</item>
+        <item name="bottomToolbar.apply.textColor">@color/zhihu_capture</item>
+        <item name="preview.bottomToolbar.back.textColor">@color/ggreen</item>
+        <item name="preview.bottomToolbar.apply.textColor">@color/ggreen</item>
+        <item name="listPopupWindowStyle">@style/Popup.Zhihu</item>
+        <item name="capture.textColor">@color/zhihu_capture</item>
+        <item name="android:windowTranslucentNavigation">@bool/show_nav_bar</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+        <item name="android:navigationBarColor" tools:ignore="NewApi">@android:color/transparent</item>
+    </style>
+
+    <style name="Toolbar.Zhihu" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    </style>
+
+    <style name="Popup.Zhihu" parent="Widget.AppCompat.Light.ListPopupWindow">
+        <item name="android:popupBackground">@color/zhihu_album_popup_bg</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:statusBarColor" tools:ignore="NewApi">#fff</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">#fff</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#fff</item>
+        <item name="android:typeface">monospace</item>
+        <item name="colorAccent">@color/gred</item>
+    </style>
+
+    <style name="PauseDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!--buttons color-->
+        <item name="colorAccent">@color/gred</item>
+        <!--title and message color-->
+        <item name="android:textColorPrimary">@color/black</item>
+        <!--dialog background-->
+        <item name="android:windowBackground">@drawable/background_dialog</item>
+    </style>
+
+
+
+</resources>

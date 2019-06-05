@@ -1,0 +1,177 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/dp_8"
+    android:layout_marginTop="@dimen/dp_8"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:padding="14dp"
+        android:paddingStart="18dp"
+        android:clickable="true"
+        android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_height="42dp"
+                android:layout_width="42dp"
+                android:id="@+id/accountpic"
+                android:clickable="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/camerablack"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:clickable="true"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/username"
+                android:paddingLeft="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/dp_16"
+                android:layout_marginStart="@dimen/dp_16"
+                android:clickable="true"
+                android:gravity="top|center_vertical"
+                android:text="@string/app_sign_name"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/userid"
+                android:layout_marginTop="4dp"
+                android:paddingLeft="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/dp_16"
+                android:layout_marginStart="@dimen/dp_16"
+                android:clickable="true"
+                android:text="thecompanyabsolute@gmail.com"
+                android:textColor="@color/grey_800"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.4dp"
+        android:layout_marginBottom="10dp"
+        android:background="#c1c1c1"/>
+
+    <TextView
+        android:id="@+id/sort"
+        android:paddingLeft="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_48"
+        android:layout_marginEnd="@dimen/dp_16"
+        android:layout_marginStart="@dimen/dp_16"
+        android:background="@drawable/ripple_text"
+        android:clickable="true"
+        android:drawablePadding="@dimen/dp_32"
+        android:drawableStart="@drawable/sort"
+        android:drawableTint="#505050"
+        android:gravity="start|center_vertical"
+        android:text="Sort"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/hidden"
+        android:paddingLeft="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_48"
+        android:layout_marginEnd="@dimen/dp_16"
+        android:layout_marginStart="@dimen/dp_16"
+        android:clickable="true"
+        android:background="@drawable/ripple_text"
+        android:drawablePadding="@dimen/dp_32"
+        android:drawableStart="@drawable/hiddenf"
+        android:drawableTint="#505050"
+        android:gravity="start|center_vertical"
+        android:text="Hidden Folders"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/filesexp"
+        android:paddingLeft="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_48"
+        android:layout_marginEnd="@dimen/dp_16"
+        android:layout_marginStart="@dimen/dp_16"
+        android:background="@drawable/ripple_text"
+        android:clickable="true"
+        android:drawablePadding="@dimen/dp_32"
+        android:drawableStart="@drawable/filexplorer"
+        android:drawableTint="#505050"
+        android:gravity="start|center_vertical"
+        android:text="File Explorer"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/settings"
+        android:paddingLeft="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_48"
+        android:layout_marginEnd="@dimen/dp_16"
+        android:layout_marginStart="@dimen/dp_16"
+        android:background="@drawable/ripple_text"
+        android:clickable="true"
+        android:drawablePadding="@dimen/dp_32"
+        android:drawableStart="@drawable/settings"
+        android:drawableTint="#505050"
+        android:gravity="start|center_vertical"
+        android:text="Settings"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/sharing"
+        android:paddingLeft="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_48"
+        android:layout_marginEnd="@dimen/dp_16"
+        android:layout_marginStart="@dimen/dp_16"
+        android:background="@drawable/ripple_text"
+        android:clickable="true"
+        android:drawablePadding="@dimen/dp_32"
+        android:drawableStart="@drawable/share"
+        android:drawableTint="#505050"
+        android:gravity="start|center_vertical"
+        android:text="Share"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/about"
+        android:paddingLeft="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_48"
+        android:layout_marginEnd="@dimen/dp_16"
+        android:layout_marginStart="@dimen/dp_16"
+        android:background="@drawable/ripple_text"
+        android:clickable="true"
+        android:drawablePadding="@dimen/dp_32"
+        android:drawableStart="@drawable/about"
+        android:drawableTint="#505050"
+        android:gravity="start|center_vertical"
+        android:text="About"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+
+    <!--Refresh , Sortby..., Hidden Folders, File Explorer, Settings, About-->
+</LinearLayout>

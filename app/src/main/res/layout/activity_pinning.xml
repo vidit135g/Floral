@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Floral"
+            android:textSize="28sp"
+            android:textColor="@color/ggreen"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="center_horizontal"
+            android:text="Images Pinning Beta"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/name"
+            android:layout_marginTop="15dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:paddingBottom="10dp"
+            android:id="@+id/mainimage"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/pinicon"
+            />
+
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:theme="@style/AppTheme.Button"
+            android:text="Get Started"
+            android:textSize="14sp"
+            android:paddingRight="20dp"
+            android:visibility="visible"
+            android:paddingLeft="20dp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/buttonsp"
+            android:textAllCaps="false"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/zhihu"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_horizontal"/>
+
+
+
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/list_bg"
+
+        android:paddingBottom="16dp"
+        android:visibility="invisible" />
+
+</RelativeLayout>

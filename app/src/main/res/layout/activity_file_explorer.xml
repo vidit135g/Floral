@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.theabsolutecompany.floral.ui.widget.SwipeBackCoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipeBackView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/root_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:tag="@string/theme_bg_color">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:paddingTop="?android:attr/actionBarSize" />
+
+        <TextView
+            android:id="@+id/empty_state_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:alpha="0"
+            android:text="@string/no_files"
+            android:textSize="24sp" />
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+
+    <include layout="@layout/fab" />
+</com.theabsolutecompany.floral.ui.widget.SwipeBackCoordinatorLayout>
