@@ -54,7 +54,7 @@
                 android:layout_marginEnd="@dimen/dp_16"
                 android:layout_marginStart="@dimen/dp_16"
                 android:clickable="true"
-                android:text="thecompanyabsolute@gmail.com"
+                android:text="jai135g@gmail.com"
                 android:textColor="@color/grey_800"
                 android:textSize="13sp" />
         </LinearLayout>
@@ -81,7 +81,8 @@
         android:gravity="start|center_vertical"
         android:text="Sort"
         android:textColor="@color/black"
-        android:textSize="14sp" />
+        android:textSize="14sp"
+        android:focusable="true" />
 
 
     <TextView
@@ -99,7 +100,8 @@
         android:gravity="start|center_vertical"
         android:text="Hidden Folders"
         android:textColor="@color/black"
-        android:textSize="14sp" />
+        android:textSize="14sp"
+        android:focusable="true" />
 
 
     <TextView
@@ -117,7 +119,8 @@
         android:gravity="start|center_vertical"
         android:text="File Explorer"
         android:textColor="@color/black"
-        android:textSize="14sp" />
+        android:textSize="14sp"
+        android:focusable="true" />
 
 
     <TextView
@@ -153,7 +156,8 @@
         android:gravity="start|center_vertical"
         android:text="Share"
         android:textColor="@color/black"
-        android:textSize="14sp" />
+        android:textSize="14sp"
+        android:focusable="true" />
 
     <TextView
         android:id="@+id/about"
@@ -170,7 +174,8 @@
         android:gravity="start|center_vertical"
         android:text="About"
         android:textColor="@color/black"
-        android:textSize="14sp" />
+        android:textSize="14sp"
+        android:focusable="true" />
 
 
     <!--Refresh , Sortby..., Hidden Folders, File Explorer, Settings, About-->

@@ -11,4 +11,4 @@
     app:maxImageSize="32dp"
     app:rippleColor="@color/black"
     android:clickable="true"
-    app:layout_behavior="com.theabsolutecompany.floral.ui.widget.FabSnackbarBehaviour" />
+    app:layout_behavior="com.absolute.floral.ui.widget.FabSnackbarBehaviour" />

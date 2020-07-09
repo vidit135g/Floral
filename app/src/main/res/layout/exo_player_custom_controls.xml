@@ -42,7 +42,7 @@
                 android:layout_margin="8dp"
                 android:textColor="@color/white_translucent1" />
 
-            <com.theabsolutecompany.floral.ui.widget.ExoPlayerSeekbar
+            <com.absolute.floral.ui.widget.ExoPlayerSeekbar
                 android:id="@id/exo_progress"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"

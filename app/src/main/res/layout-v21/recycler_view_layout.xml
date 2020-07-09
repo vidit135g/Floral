@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:tag="@string/theme_bg_color">
 
-    <com.theabsolutecompany.floral.ui.widget.FastScrollerRecyclerView
+    <com.absolute.floral.ui.widget.FastScrollerRecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:text="Floral"
             android:layout_marginTop="5dp"
-            android:textSize="20sp"
+            android:textSize="21sp"
             android:textColor="@color/gred"
             android:layout_gravity="center"
             android:visibility="visible"
@@ -45,7 +45,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=" Gallery"
-            android:textSize="20sp"
+            android:textSize="21sp"
             android:layout_marginTop="5dp"
             android:textColor="#767676"
             android:layout_gravity="center"

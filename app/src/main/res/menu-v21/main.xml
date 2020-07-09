@@ -10,8 +10,8 @@
         android:icon="@drawable/camerablack"
         android:title="menu"
         android:visible="true"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
         app:showAsAction="always"
         tools:ignore="AlwaysShowAction" />
 

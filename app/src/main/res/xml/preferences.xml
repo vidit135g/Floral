@@ -20,14 +20,14 @@
             android:title="@string/theme" />
 
         <!--suppress AndroidElementNotAllowed -->
-        <com.theabsolutecompany.floral.preferences.StylePreference
+        <com.absolute.floral.preferences.StylePreference
             style="@style/CameraRoll.Theme.DialogPreference"
             android:defaultValue="2"
             android:key="@string/pref_key_style"
             android:title="@string/style" />
 
         <!--suppress AndroidElementNotAllowed -->
-        <com.theabsolutecompany.floral.preferences.ColumnCountPreference
+        <com.absolute.floral.preferences.ColumnCountPreference
             style="@style/CameraRoll.Theme.DialogPreference"
             android:defaultValue="4"
             android:key="@string/pref_key_column_count"

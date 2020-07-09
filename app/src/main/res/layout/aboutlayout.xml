@@ -38,7 +38,7 @@
             android:layout_gravity="center"
             android:id="@+id/compname"
             android:textColor="#000"
-            android:text="The Absolute Company \u00AE"/>
+            android:text=""/>
 
 
 

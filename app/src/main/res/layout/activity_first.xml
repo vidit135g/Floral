@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#fff"
-    tools:context="com.theabsolutecompany.floral.ui.FirstActivity">
+    tools:context="com.absolute.floral.ui.FirstActivity">
 <ImageView
     android:layout_width="190dp"
     android:layout_height="190dp"

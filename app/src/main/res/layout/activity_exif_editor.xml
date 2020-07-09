@@ -18,7 +18,7 @@
         android:layout_height="0dp"
         android:layout_weight="1">
 
-        <com.theabsolutecompany.floral.ui.widget.FastScrollerRecyclerView
+        <com.absolute.floral.ui.widget.FastScrollerRecyclerView
             android:id="@+id/recyclerView"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
