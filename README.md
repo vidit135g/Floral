@@ -5,11 +5,11 @@ Minimal design gallery app for Android.
 
 <br />
 <div class="christmas_promotion_boxes">
-    <img src="https://raw.githubusercontent.com/vidit135g/Floral/master/screenshots/Image%201.jpeg" width="180" height="330"/>
-    <img src="https://raw.githubusercontent.com/vidit135g/Floral/master/screenshots/Image%202.jpeg" width="180" height="330"/>
-    <img src="https://raw.githubusercontent.com/vidit135g/Floral/master/screenshots/Image%203.jpeg" width="180" height="330"/>
-    <img src="https://raw.githubusercontent.com/vidit135g/Floral/master/screenshots/Image%204.jpeg" width="180" height="330"/>
-    <img src="https://raw.githubusercontent.com/vidit135g/Floral/master/screenshots/Image%205.jpeg" width="180" height="330"/>
+    <img src="https://raw.githubusercontent.com/vidit135g/Floral/master/screenshots/Image%201.jpeg" width="160" height="310"/>
+    <img src="https://raw.githubusercontent.com/vidit135g/Floral/master/screenshots/Image%202.jpeg" width="160" height="310"/>
+    <img src="https://raw.githubusercontent.com/vidit135g/Floral/master/screenshots/Image%203.jpeg" width="160" height="310"/>
+    <img src="https://raw.githubusercontent.com/vidit135g/Floral/master/screenshots/Image%204.jpeg" width="160" height="310"/>
+    <img src="https://raw.githubusercontent.com/vidit135g/Floral/master/screenshots/Image%205.jpeg" width="160" height="310"/>
 </div>
 
 <br />
