@@ -2,7 +2,7 @@ package com.absolute.floral.data.provider.itemLoader;
 
 import android.content.Context;
 import android.content.Intent;
-import android.support.v4.content.LocalBroadcastManager;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 import java.io.File;
 import java.util.ArrayList;

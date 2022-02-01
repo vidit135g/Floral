@@ -8,7 +8,7 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.provider.BaseColumns;
 import android.provider.MediaStore;
-import android.support.v4.content.CursorLoader;
+import androidx.loader.content.CursorLoader;
 import android.util.Log;
 import android.widget.Toast;
 

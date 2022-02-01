@@ -42,7 +42,7 @@
         android:layout_marginBottom="90dp"
         android:textColor="@color/black"
         android:layout_centerHorizontal="true"/>
-    <android.support.v7.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatButton
         android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:theme="@style/AppTheme.Button"

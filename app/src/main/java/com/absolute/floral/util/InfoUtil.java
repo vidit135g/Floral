@@ -6,7 +6,7 @@ import android.location.Address;
 import android.location.Geocoder;
 import android.net.Uri;
 import android.provider.OpenableColumns;
-import android.support.media.ExifInterface;
+import android.media.ExifInterface;
 
 import java.io.IOException;
 import java.text.ParseException;
@@ -212,7 +212,7 @@ public class InfoUtil {
     }
 
     public static InfoItem retrieveISO(Context context, ExifInterface exif) {
-        Object isoObject = ExifUtil.getCastValue(exif, ExifInterface.TAG_PHOTOGRAPHIC_SENSITIVITY);
+        Object isoObject = ExifUtil.getCastValue(exif, ExifInterface.TAG_SPECTRAL_SENSITIVITY);
         String iso;
         if (isoObject != null) {
             iso = String.valueOf(isoObject);

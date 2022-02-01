@@ -1,6 +1,6 @@
 package com.absolute.floral.util;
 
-import android.support.v4.view.ViewPager;
+import androidx.viewpager.widget.ViewPager;
 import android.view.View;
 
 //heavily by: https://developer.android.com/training/animation/screen-slide.html#pagetransformer

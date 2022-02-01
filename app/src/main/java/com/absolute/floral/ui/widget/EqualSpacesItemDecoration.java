@@ -1,7 +1,7 @@
 package com.absolute.floral.ui.widget;
 
 import android.graphics.Rect;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 
 //simple ItemDecoration to get even spacing around items with the GridLayoutManager

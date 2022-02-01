@@ -19,11 +19,11 @@ import android.os.Looper;
 import android.os.Parcel;
 import android.os.Parcelable;
 import android.provider.MediaStore;
-import android.support.annotation.RequiresApi;
-import android.support.media.ExifInterface;
-import android.support.v4.app.NotificationCompat;
-import android.support.v4.content.LocalBroadcastManager;
-import android.support.v4.provider.DocumentFile;
+import androidx.annotation.RequiresApi;
+import android.media.ExifInterface;
+import androidx.core.app.NotificationCompat;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
+import androidx.documentfile.provider.DocumentFile;
 import android.util.Log;
 import android.widget.Toast;
 

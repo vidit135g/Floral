@@ -1,6 +1,6 @@
 package com.absolute.floral.adapter.album.viewHolder;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.view.View;
 import android.widget.ImageView;
 

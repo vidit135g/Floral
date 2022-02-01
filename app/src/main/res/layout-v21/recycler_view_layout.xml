@@ -20,7 +20,7 @@
         app:rfs_touchTargetWidth="0.5dp"
         android:layout_gravity="end" />
 
-    <android.support.v7.widget.Toolbar android:id="@+id/toolbar"
+    <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:minHeight="?attr/actionBarSize"
@@ -54,6 +54,6 @@
             android:id="@+id/toolbar_gallery" />
 
 
-    </android.support.v7.widget.Toolbar>
+    </androidx.appcompat.widget.Toolbar>
 
 </FrameLayout>
