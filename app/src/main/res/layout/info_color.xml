@@ -11,7 +11,7 @@
         android:orientation="horizontal">
 
         <!--Vibrant color-->
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:id="@+id/vibrant_card"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -22,10 +22,10 @@
             <TextView
                 android:id="@+id/vibrant_text"
                 style="@style/InfoColorItem" />
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
         <!--Vibrant Dark color-->
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:id="@+id/vibrant_dark_card"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -36,10 +36,10 @@
             <TextView
                 android:id="@+id/vibrant_dark_text"
                 style="@style/InfoColorItem" />
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
         <!--Vibrant Light color-->
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:id="@+id/vibrant_light_card"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -50,10 +50,10 @@
             <TextView
                 android:id="@+id/vibrant_light_text"
                 style="@style/InfoColorItem" />
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
         <!--Muted color-->
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:id="@+id/muted_card"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -64,10 +64,10 @@
             <TextView
                 android:id="@+id/muted_text"
                 style="@style/InfoColorItem" />
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
         <!--Muted Dark color-->
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:id="@+id/muted_dark_card"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -78,10 +78,10 @@
             <TextView
                 android:id="@+id/muted_dark_text"
                 style="@style/InfoColorItem" />
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
         <!--Muted Light color-->
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:id="@+id/muted_light_card"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -92,6 +92,6 @@
             <TextView
                 android:id="@+id/muted_light_text"
                 style="@style/InfoColorItem" />
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
     </LinearLayout>
 </HorizontalScrollView>

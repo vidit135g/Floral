@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:clipToPadding="false">
 
-    <android.support.design.card.MaterialCardView
+    <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="4dp"
@@ -22,5 +22,5 @@
             tools:ignore="ContentDescription" />
 
         <include layout="@layout/album_title"/>
-    </android.support.design.card.MaterialCardView>
+    </com.google.android.material.card.MaterialCardView>
 </com.absolute.floral.ui.widget.SquareRelativeLayout>

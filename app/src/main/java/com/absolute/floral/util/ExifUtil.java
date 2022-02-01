@@ -5,7 +5,7 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.support.media.ExifInterface;
+import android.media.ExifInterface;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -98,7 +98,7 @@ public class ExifUtil {
             ExifInterface.TAG_IMAGE_UNIQUE_ID,
             ExifInterface.TAG_IMAGE_WIDTH,
             ExifInterface.TAG_INTEROPERABILITY_INDEX,
-            ExifInterface.TAG_PHOTOGRAPHIC_SENSITIVITY,
+            ExifInterface.TAG_SPECTRAL_SENSITIVITY,
             ExifInterface.TAG_JPEG_INTERCHANGE_FORMAT,
             ExifInterface.TAG_JPEG_INTERCHANGE_FORMAT_LENGTH,
             ExifInterface.TAG_LIGHT_SOURCE,
@@ -525,7 +525,7 @@ public class ExifUtil {
             ExifInterface.TAG_IMAGE_UNIQUE_ID,
             /*ExifInterface.TAG_IMAGE_WIDTH,*/
             ExifInterface.TAG_INTEROPERABILITY_INDEX,
-            ExifInterface.TAG_PHOTOGRAPHIC_SENSITIVITY,
+            ExifInterface.TAG_SPECTRAL_SENSITIVITY,
             /*ExifInterface.TAG_JPEG_INTERCHANGE_FORMAT,*/
             /*ExifInterface.TAG_JPEG_INTERCHANGE_FORMAT_LENGTH,*/
             ExifInterface.TAG_LIGHT_SOURCE,

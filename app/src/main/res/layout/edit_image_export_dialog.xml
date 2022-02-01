@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:paddingBottom="8dp"
     android:paddingTop="8dp"
-    app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
 
     <LinearLayout
         android:id="@+id/save"
